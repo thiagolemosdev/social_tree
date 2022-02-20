@@ -1,0 +1,56 @@
+:root {
+  --body-bg-color: #faf7fd;
+  --blue: #2388e7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  font-family: Poppins;
+}
+
+div {
+  color: var(--blue);
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div > img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--blue);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+div > h1 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.links li {
+  width: 326px;
+  padding: 12px 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid var(--blue);
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+ul.social-midia {
+  display: flex;
+  gap: 30px;
+}
