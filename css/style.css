@@ -14,7 +14,7 @@ body {
 
 div {
   color: var(--blue);
-  width: 700px;
+  max-width: 700px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -38,6 +38,12 @@ div > h1 {
 ul {
   list-style: none;
   padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #2388e7;
 }
 
 ul.links li {
