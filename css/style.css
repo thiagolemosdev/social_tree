@@ -14,7 +14,7 @@ body {
 
 div {
   color: var(--blue);
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,7 @@ div > h1 {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 ul.links li {
@@ -53,4 +54,10 @@ ul.links li {
 ul.social-midia {
   display: flex;
   gap: 30px;
+}
+
+@media (max-width: 400px) {
+  div {
+    width: 300px;
+  }
 }
