@@ -15,4 +15,4 @@
 
 ## Link
 
-[Consulta Bitcoin](https://social-tree-ten.vercel.app/)
+[Social Tree](https://social-tree-ten.vercel.app/)
